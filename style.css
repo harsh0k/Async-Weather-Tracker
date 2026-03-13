@@ -1,0 +1,43 @@
+body{
+font-family: Arial;
+background: linear-gradient(#1f2a5a,#0c1b3a);
+color:white;
+text-align:center;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:30px;
+}
+
+.search, .weather{
+background:white;
+color:black;
+padding:20px;
+border-radius:8px;
+width:250px;
+}
+
+input{
+padding:8px;
+width:150px;
+}
+
+button{
+padding:8px 12px;
+background:orange;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.history{
+background:white;
+color:black;
+width:500px;
+margin:auto;
+padding:15px;
+border-radius:8px;
+}
